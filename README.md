@@ -20,7 +20,9 @@ Interfaces: GradeCalculator interface implementation
 Method Overloading: Multiple constructors and methods with different parameters
 Static Members: Class variables and methods for global tracking
 Project Structure
+
 src/main/java/com/studentinfo/
+
 ├── Person.java               # Base class
 ├── Student.java              # Extends Person, implements GradeCalculator
 ├── GraduateStudent.java      # Extends Student (multilevel inheritance)
@@ -120,7 +122,9 @@ MongoDBConnection: Singleton class to manage database connection
 StudentRepository: Handles CRUD operations for students
 CourseRepository: Handles CRUD operations for courses
 GUI Classes
+
 MainFrame: Main application window with tabbed interface
+
 StudentPanel: Panel for student management
 CoursePanel: Panel for course management
 GradePanel: Panel for grade management
